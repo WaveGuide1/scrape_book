@@ -6,6 +6,3 @@ page_content = requests.get('https://books.toscrape.com/').content
 
 page = AllBookPage(page_content)
 books = page.books
-
-for book in books:
-    print(book)
