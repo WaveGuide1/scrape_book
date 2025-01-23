@@ -28,7 +28,7 @@ class BookParser:
         locator = BookLocator.PRICE_LOCATOR
         price_link = self.parent.select_one(locator).string
 
-        pattern = '£([0-9]+\.[0-9]+)'
+        pattern = '£([0-9]+\\.[0-9]+)'
         price = re.search(pattern, price_link)
         return float(price.group(1))
 
