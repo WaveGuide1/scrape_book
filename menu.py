@@ -1,6 +1,6 @@
 from app import books
 
-CHOICE = """ Enter one of the following choice:
+CHOICE = """ Enter one of the following choices:
 - 'b' 5-Star Books
 - 'c' Cheapest books
 - 'd' Ten best Highest rated books
